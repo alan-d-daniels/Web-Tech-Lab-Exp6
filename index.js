@@ -71,10 +71,10 @@ function q5(){
                 ]
     for(let i=0;i<student.length;i++){
         if(parseInt(student[i].dob.split("/")[2])<2000){
-            document.getElementById("before").innerHTML+=student[i].name+"\'s "+"Register Number is "+student[i].regNo+"and the DOB is "+student[i].dob+"<br><br>";
+            document.getElementById("before").innerHTML+=student[i].name+"\'s "+"Register Number is "+student[i].regNo+" and the DOB is "+student[i].dob+"<br><br>";
         }
         else
-        document.getElementById("after").innerHTML+=student[i].name+"\'s "+"Register Number is "+student[i].regNo+"and the DOB is "+student[i].dob+"<br><br>";
+        document.getElementById("after").innerHTML+=student[i].name+"\'s "+"Register Number is "+student[i].regNo+" and the DOB is "+student[i].dob+"<br><br>";
 
     }    
 }
