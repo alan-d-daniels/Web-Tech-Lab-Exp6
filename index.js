@@ -6,7 +6,7 @@ function q1Clock(){
     let d=new Date();
     var time = d.getHours() + " : " + d.getMinutes() + " : " + d.getSeconds();    
     document.getElementById("time").innerHTML=time;  
-    document.getElementById("stopClock").innerHTML="<button class=\"btn btn-outline-danger mt-3\" onclick=\"q1Stop()\">Stop</button>";
+    document.getElementById("stopClock").innerHTML="<button class=\"btn btn-danger mt-3\" onclick=\"q1Stop()\">Stop</button>";
     
 }
 
@@ -26,7 +26,7 @@ function q2Start(){
     let blue=Math.floor(Math.random()*255);
     let color="rgb("+red+","+green+","+blue+")";
     document.getElementById("Q2").style.backgroundColor = color;
-    document.getElementById("stopBg").innerHTML="<button class=\"btn btn-outline-danger mt-3 mb-4\" onclick=\"q2Stop()\">Stop</button>";    
+    document.getElementById("stopBg").innerHTML="<button class=\"btn btn-danger mt-3 mb-4\" onclick=\"q2Stop()\">Stop</button>";    
 }
 
 
