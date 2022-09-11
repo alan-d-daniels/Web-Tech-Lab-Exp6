@@ -44,7 +44,7 @@ function q3Off(){
 var interval;
 function q4Start(){ 
     car=document.getElementById("car");
-    interval=setTimeout(q4CarMove,10);
+    interval=setTimeout('q4CarMove()',10);
            
 }
 function q4Stop(){   
